@@ -1,0 +1,24 @@
+{
+  "name": "id_card_printer",
+  "version": "1.0.0",
+  "description": "Id Card Printing in Bulk",
+  "main": "main.js",
+  "author": "Dinesh Kuniyal",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^21.3.1",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.idcardprinter.map",
+    "productName": "ID Card Printer",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}

@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../resources/Roboto/Roboto-Regular.ttf);
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: rgb(22, 22, 22);
+}
+
+.outer_container {
+    width: 95%;
+    display: block;
+    margin: 2rem auto;
+}
+
+.flexed_all_cards_outer {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+/* //  */
+.card-box-main-outer {
+    height: 56mm;
+    width: 89mm;
+    padding: 3mm;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* // Card 1 */
+.card-1-header-bg {
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    /* border-bottom-left-radius: 20px; */
+    background-color: dodgerblue;
+    border-bottom-right-radius: 20px;
+    top: 0px;
+}
+
+.card-1-header-flexed {
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-1-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.card-1-body {
+    color: red;
+}
+
+.card-1-second-body {
+    display: flex;
+    align-items: center;
+}
+
+.card-1-list-flexed {
+    display: flex;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.card-1-school-name {
+    letter-spacing: 0.3px;
+    font-size: 16px;
+}
+
+.card-1-sub-header-text {
+    font-size: 8px !important;
+}
+
+.card-1-header-details-box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    flex: 1;
+}
+
+.card-1-student-image {
+    width: 70px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    aspect-ratio: 1/1;
+    height: 70px;
+}
+
+.card-1-s-content-label {
+    display: block;
+    width: 90px;
+    min-width: 90px;
+}
+
+.card-1-s-details {
+    margin-top: -1px;
+}
+
+.card-1-footer {
+    width: 100%;
+    left: 0px;
+    align-items: center;
+    padding: 2px 3mm;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-bottom: 3mm;
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-between;
+    bottom: 0px;
+    position: absolute;
+}
+
+.card-1-footer h6 {
+    font-weight: 600;
+}
+
+.card-1-p-sign-img {
+    width: 50px;
+    position: absolute;
+    right: 1rem;
+    z-index: 7;
+}
+
+/* // Card 2  */
+
+.card-2-header-container {
+    display: flex;
+    color: rgb(243, 243, 243);
+    height: 50px;
+}
+
+.card-2-header-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    width: 100%;
+    height: 65px;
+    background-color: maroon;
+}
+
+.card-2-header-img-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 65px;
+    height: 65px;
+    z-index: -1;
+    background-color: orange;
+}
+
+.card-2-header-details-container {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1px;
+    letter-spacing: 0.4px;
+}
+
+.card-2-footer {
+    width: 100%;
+    left: 0px;
+    padding: 0px 3mm;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    bottom: 0px;
+    position: absolute;
+    background-color: maroon;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-2-footer h6 {
+    font-weight: 600;
+}
+
+.card-2-p-sign {
+    height: 100%;
+    padding: 4px;
+    padding-bottom: 3mm;
+    background-color: orange;
+}
+
+.card-2-footer-session {
+    margin-top: 4px;
+}
+
+.card-2-body {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    /* align-items: baseline; */
+}
+
+.card-2-body-detials-holder {
+    flex: 1;
+}
+
+.card-2-name-flexed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-2-name-flexed h4 {
+    color: maroon;
+}
+
+.card-2-ul {
+    background-color: #000;
+    width: 110%;
+    height: 2px;
+    border-radius: 40px;
+}
+
+.card-2-body img {
+    width: 80px;
+    border-radius: 4px;
+    border: 2px solid maroon;
+    height: 80px;
+}
+
+.card-2-list-flexed {
+    display: flex;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.card-2-s-content-label {
+    display: block;
+    width: 90px;
+    min-width: 90px;
+}
+
+.card-2-p-sign-img {
+    position: absolute;
+    right: 1rem;
+    width: 50px;
+    z-index: 3;
+    bottom: 1.3rem;
+}
